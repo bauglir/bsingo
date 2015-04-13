@@ -1,0 +1,29 @@
+{
+  "name": "bsingo",
+  "version": "0.1.0",
+  "description": "A 'bullshit bingo' service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev-server": "node_modules/.bin/webpack-dev-server --host 0.0.0.0 --content-base src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bauglir/bsingo.git"
+  },
+  "keywords": [
+    "Bullshit",
+    "Bingo"
+  ],
+  "author": "Joris Kraak <me@joriskraak.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bauglir/bsingo/issues"
+  },
+  "homepage": "https://github.com/bauglir/bsingo",
+  "devDependencies": {
+    "webpack": "1.8.4",
+    "webpack-dev-server": "1.8.0"
+  }
+}
