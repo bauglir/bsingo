@@ -1,1 +1,1 @@
-console.log('Hello Bundle!');
+import 'bootstrap/less/bootstrap.less';
